@@ -1,17 +1,6 @@
 #include <NaoFramework/Core/Brain.hpp>
-#include <NaoFramework/Modules/DynamicModule.hpp>
 #include <NaoFramework/Console/Console.hpp>
 #include <NaoFramework/Log/Frontend.hpp>
-#include <NaoFramework/Comm/Blackboard.hpp>
-#include <NaoFramework/Comm/ExternalBlackboardAdapter.hpp>
-#include <NaoFramework/Comm/LocalBlackboardAdapter.hpp>
-
-#include <map>
-#include <vector>
-#include <string>
-#include <iostream>
-
-using std::cout;
 
 int main(int argc, const char * argv[]) {
     // Must call this!
